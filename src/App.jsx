@@ -5,12 +5,14 @@ import CvPreview from "./components/CvPreview";
 const sampleData = {
   personal: {
     name: "Abebe Kebede",
+    profession: "Front-end developer",
     email: "abebe.kebede@example.com",
     phone: "+251 90985 1357",
     location: "Addis Ababa, Ethiopia",
     linkedin: "://linkedin.com",
     github: "://github.com"
   },
+
   summary: 
     "I am a passionate frontend developer with foundation in React and modern web technologies. My goal is to continuously improve my skills and contribute to innovative projects.",
   
@@ -38,7 +40,7 @@ const sampleData = {
 };
 
 const emptyData = {
-  personal: { name: "", email: "", phone: "", location: "", linkedin: "", github: ""},
+  personal: { name: "", profession: "" , email: "", phone: "", location: "", linkedin: "", github: ""},
   summary: "",
   education: [],
   experience: [],
