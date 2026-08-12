@@ -1,0 +1,31 @@
+.cv-education {
+  margin-top: 24px;
+}
+
+.cv-education-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0 4px;
+}
+
+.cv-education-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cv-education-list {
+  font-size: 17px;
+  font-weight: bold;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-education-degree {
+  font-size: 16px;
+  font-weight: semi-bold; 
+  color: #000000;
+  margin-top: 1px;
+}

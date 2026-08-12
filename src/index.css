@@ -1,0 +1,150 @@
+
+.top-bar {
+  display: flex;
+  gap: 12px;
+  padding: 12px 24px;
+  background: #111827;           
+}
+
+.top-bar button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #f4f5f6;           
+  color: #0f2a60;
+}
+
+.top-bar button:hover {
+  background: #4b5563;
+  color:#f9f8f8
+}
+
+
+.main-content {
+  display: flex;
+  flex: 1;
+  width: 100vw;            
+  box-sizing: border-box;
+}
+
+.editor-side {
+  width: 50%;                     
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;               
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.preview-side {
+  width: 50%;
+  height: 100%;
+  overflow-y: auto;          
+  background: #f3f4f6;     
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cv-preview {
+  background: #ffffff;
+  width: 210vw;              
+  min-height: 297vh;        
+  padding: 40px 30px;        
+  margin: 0 auto;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.cv-section-title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 24px 0 10px 0;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid #000000; 
+}
+
+
+.form-card {
+  background: #f8fafc;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.form-card h2 {
+  margin: 0 0 20px 0;
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+  margin-top: 14px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;              
+  box-sizing: border-box;          
+  font-size: 18px;
+  color: #0f172a;                  
+  background: #ffffff;
+}
+
+
+.btn-delete {
+  background: #f7f3f3;  
+  color: #dc2626;      
+  border: 1px solid #fca5a5;
+  padding: 15px 16px;
+  margin-top: 7px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 42px;         
+  box-sizing: border-box;
+}
+
+.btn-delete:hover {
+  background: #fecaca;
+  color: #b91c1c;
+}
+
+.btn-add {
+  width: 100%;
+  padding: 12px;
+  background: #0a2a6e; 
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.btn-add:hover {
+  background: #374f8f;
+}

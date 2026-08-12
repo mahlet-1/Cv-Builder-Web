@@ -1,0 +1,51 @@
+
+
+.cv-experience {
+  margin-top: 24px;
+}
+
+.cv-experience-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 4px;
+}
+
+.cv-experience-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cv-experience-list {
+  font-size: 17px;
+  font-weight: bold;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between; 
+  align-items: baseline;
+  width: 100%;
+}
+
+.cv-experience-position {
+  font-size: 16px;
+  font-weight: bold; 
+  opacity: 80% ;
+  color: #000000;
+  margin-top: 1px;
+}
+
+.cv-experience-entry ul {
+  margin: 4px 0 0 0;
+  padding-left: 20px; 
+}
+
+.cv-experience-entry li {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+.cv-experience-description {
+  margin: 0;
+  display: inline;
+}

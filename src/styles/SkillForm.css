@@ -1,0 +1,28 @@
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.skill-item {
+  background: #e2e8f0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #061f41;
+  border: 1px solid #cbd5e1;
+}
+
+.btn-remove {
+  background: #f1efef;
+  color: #bb4040;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
