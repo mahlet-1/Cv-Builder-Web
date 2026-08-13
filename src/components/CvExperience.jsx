@@ -4,7 +4,7 @@ export default function CvExperience({ experience }) {
 
   return (
     <div className="cv-experience">
-        <h2 className="cv-section-title">Work Experience</h2>
+      <h2 className="cv-section-title">Work Experience</h2>
       
       <div className="cv-experience-entries">
         {experience.map((experience) => (
@@ -12,17 +12,19 @@ export default function CvExperience({ experience }) {
             <div className="cv-experience-list">
               {experience.company}{experience.from || experience.to ? ` | ${experience.from || ""} - ${experience.to || ""}` : ""}
             </div>
+            
             <div className="cv-experience-position">
               {experience.position}
             </div>
-            <ul>
+            {experience.description && (
+              <ul>
                 <li>
-                    {experience.description && (
-                    <p className="cv-experience-description">
-                    {experience.description} </p>
-                    )}
-                  </li>
-            </ul>
+                  <p className="cv-experience-description">
+                    {experience.description}
+                  </p>
+                </li>
+              </ul>
+            )}
           </div>
         ))}
       </div>
