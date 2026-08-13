@@ -1,4 +1,3 @@
-import '../styles/EducationForm.css';
 export default function EducationEntry({ education, updateEducation, removeEducation }) {
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,7 +29,7 @@ export default function EducationEntry({ education, updateEducation, removeEduca
           onChange={handleChange}
           className="form-input"
         />
-        
+
         <label className="form-label" htmlFor={`field-${education.id}`}>
           Field of Study:
         </label>
