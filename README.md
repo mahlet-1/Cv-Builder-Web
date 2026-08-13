@@ -1,6 +1,9 @@
 # Cv Builder Web
 > Welcome to my React CV Builder project! I built this single-page web that updates in real-time when a user types. It features a side by side split that lets you watch your changes update immediately on a  preview sheet and on the other side you can edit your data.This web is written using JavaScript and Reactnas a framework , handles complex nested data flows, and uses robust global state tracking with zero external database dependencies.
 
+### 🔗 Links
+* **Live Demo:** [View Live Application](https://cv-builder-web-sigma.vercel.app/)
+
 
 ## Key Features
 
