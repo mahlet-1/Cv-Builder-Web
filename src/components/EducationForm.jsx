@@ -4,10 +4,10 @@ export default function EducationForm({ education, updateEducation, addEducation
         <div className="form-card">
             <h2>Education</h2>
             <div className="form-container">
-                {education.map((education) => (
+                {education.map((edu) => (
                     <EducationEntry
-                        key={education.id}
-                        education={education}
+                        key={edu.id}
+                        education={edu}
                         updateEducation={updateEducation}
                         removeEducation={removeEducation}
                     />

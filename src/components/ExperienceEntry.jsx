@@ -1,4 +1,3 @@
-import '../styles/ExperienceForm.css';
 export default function ExperienceEntry({ experience, updateExperience, removeExperience }) {
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -19,6 +18,7 @@ export default function ExperienceEntry({ experience, updateExperience, removeEx
                 onChange={handleChange}
                 className="form-input"
             />
+            
             <label className="form-label" htmlFor={`position-${experience.id}`}>
                 Position:
             </label>
@@ -31,6 +31,7 @@ export default function ExperienceEntry({ experience, updateExperience, removeEx
                 onChange={handleChange}
                 className="form-input"
             />
+            
             <div className="form-row">
                 <div className="form-group">
                     <label className="form-label" htmlFor={`from-${experience.id}`}>        
@@ -45,6 +46,7 @@ export default function ExperienceEntry({ experience, updateExperience, removeEx
                         className="form-input"
                     />
                 </div>
+                
                 <div className="form-group">
                     <label className="form-label" htmlFor={`to-${experience.id}`}>
                         To:
@@ -57,30 +59,29 @@ export default function ExperienceEntry({ experience, updateExperience, removeEx
                         onChange={handleChange}
                         className="form-input"
                     />
-
-                    <label className="form-label" htmlFor={`description-${experience.id}`}>
-                        Experience Description:
-                    </label>
-                    <input
-                        type="text"
-                        id= {`description-${experience.id}`}
-                        name="description"
-                        value={experience.description}
-                        onChange={handleChange}
-                        className="form-input"
-                    
-                    />
-
-                    </div>
-
-                    <button
-                        type="button"
-                        className="btn-delete"
-                        onClick={() => removeExperience(experience.id)}
-                    >
-                        Remove Experience
-                    </button>
+                </div>
             </div>
+
+            <label className="form-label" htmlFor={`description-${experience.id}`}>
+                Experience Description:
+            </label>
+            <input
+                type="text"
+                id={`description-${experience.id}`}
+                name="description"
+                placeholder="Enter a description"
+                value={experience.description}
+                onChange={handleChange}
+                className="form-input"
+            />
+
+            <button
+                type="button"
+                className="btn-delete"
+                onClick={() => removeExperience(experience.id)}
+            >
+                Remove Experience
+            </button>
         </div>
     );
 }

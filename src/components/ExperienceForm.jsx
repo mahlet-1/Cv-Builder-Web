@@ -4,10 +4,10 @@ export default function ExperienceForm({ experience, addExperience, updateExperi
         <div className="form-card">
             <h2>Work Experience</h2>
             <div className="form-container">
-                {experience.map((experience) => (
+                {experience.map((exp) => (
                     <ExperienceEntry
-                        key={experience.id}
-                        experience={experience}
+                        key={exp.id}
+                        experience={exp}
                         updateExperience={updateExperience}
                         removeExperience={removeExperience}
                     />
