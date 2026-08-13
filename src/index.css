@@ -38,6 +38,7 @@
   padding: 20px;
   overflow-y: auto;               
   background: #ffffff;
+  font-family: "Inter" , sans-serif;
   box-sizing: border-box;
 }
 
@@ -45,10 +46,11 @@
   width: 50%;
   height: 100%;
   overflow-y: auto;          
-  background: #f3f4f6;     
+  background: #f3f4f6; 
+  font-family: "Inter" , sans-serif ;  
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 25px;
   box-sizing: border-box;
 }
 

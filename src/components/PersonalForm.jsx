@@ -1,4 +1,3 @@
-import '../styles/PersonalForm.css';
 export default function PersonalForm({Personal, updatePersonal}) {
     const handleChange = (e) => {
         const { name, value } = e.target;

@@ -11,18 +11,19 @@
   border-radius: 20px;
   align-items: center;
   gap: 8px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: #061f41;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #d4d7dd;
 }
 
 .btn-remove {
   background: #f1efef;
   color: #bb4040;
+  font-weight: bold;
   border: none;
-  padding: 4px 8px;
+  padding: 8px 10px;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13.5px;
 }

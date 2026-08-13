@@ -18,7 +18,7 @@
 }
 
 .cv-experience-list {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   color: #1a1a1a;
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .cv-experience-position {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold; 
   opacity: 80% ;
   color: #000000;
