@@ -18,7 +18,7 @@ const sampleData = {
   
   education: [
     {
-      id: Date.now(),
+      id: 1,
       school: "Addis Ababa University",
       degree: "Bachelor of Science",
       field: "Computer Science",
@@ -28,7 +28,7 @@ const sampleData = {
   ],
   experience: [
     {
-      id: Date.now(),
+      id: 1,
       company: "Nexus Tutorial",
       position: "Frontend Developer Intern",
       from: "2025-01-05",

@@ -1,6 +1,6 @@
 import "../styles/CvEducation.css";
 export default function CvEducation({ education }) {
-  if (!education || education.length === 0) return null;
+  if (education.length === 0) return null;
 
   return (
     <div className="cv-education">

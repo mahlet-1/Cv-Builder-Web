@@ -1,6 +1,6 @@
 import "../styles/CvExperience.css";
 export default function CvExperience({ experience }) {
-  if (!experience || experience.length === 0) return null;
+  if (experience.length === 0) return null;
 
   return (
     <div className="cv-experience">

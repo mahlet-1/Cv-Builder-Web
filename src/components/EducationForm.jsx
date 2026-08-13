@@ -1,4 +1,3 @@
-import '../styles/EducationForm.css';
 import EducationEntry from "./EducationEntry";
 export default function EducationForm({ education, updateEducation, addEducation, removeEducation }) {
     return (

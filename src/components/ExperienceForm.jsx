@@ -1,4 +1,3 @@
-import "../styles/ExperienceForm.css";
 import ExperienceEntry from './ExperienceEntry';
 export default function ExperienceForm({ experience, addExperience, updateExperience, removeExperience }) {
     return (

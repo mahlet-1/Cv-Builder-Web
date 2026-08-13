@@ -1,6 +1,6 @@
 import "../styles/CvSkill.css";
 export default function CvSkills({ skills }) {
-  if (!skills || skills.length === 0) return null;
+  if (skills.length === 0) return null;
 
   return (
     <div className="cv-skills">
