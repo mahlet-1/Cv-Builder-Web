@@ -3,7 +3,7 @@ import ExperienceEntry from './ExperienceEntry';
 export default function ExperienceForm({ experience, addExperience, updateExperience, removeExperience }) {
     return (
         <div className="form-card">
-            <h2>WorkExperience</h2>
+            <h2>Work Experience</h2>
             <div className="form-container">
                 {experience.map((experience) => (
                     <ExperienceEntry
