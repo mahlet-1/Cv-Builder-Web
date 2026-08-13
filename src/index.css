@@ -1,9 +1,11 @@
 .top-bar {
   display: flex;
-  gap: 12px;
-  padding: 24px;
+  flex-direction: row;      
+  align-items: center;      
+  gap: 12px;                
+  padding: 12px 24px;       
   background: #111827;
-  height: 30px;           
+  box-sizing: border-box;    
 }
 
 .top-bar button {
@@ -15,6 +17,8 @@
   cursor: pointer;
   background: #f4f5f6;           
   color: #0f2a60;
+  position: relative; 
+  white-space: nowrap;      
 }
 
 .top-bar button:hover {
@@ -22,13 +26,18 @@
   color:#f9f8f8
 }
 
+.btn-download {
+  margin-left: auto;       
+}
+
+
 
 .main-content {
   display: flex;
   flex: 1;
   width: 100vw;            
   box-sizing: border-box;
-  height: calc(100vh - 30px);
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -157,3 +166,5 @@
 .btn-add:hover {
   background: #374f8f;
 }
+
+

@@ -120,10 +120,12 @@ export default function App() {
       
       <div className="top-bar">
         <button onClick={() => setIsEditMode(!isEditMode)}>
+
           {isEditMode ? "View Full CV Preview" : "Back to Edit Mode"}
         </button>
         <button onClick={() => setCvData(sampleData)}>Load Example Data</button>
         <button onClick={() => setCvData(emptyData)}>Clear All Fields</button>
+        <button className="btn-download">Download CV</button>
       </div>
 
       <div className="main-content">
