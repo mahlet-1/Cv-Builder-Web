@@ -30,7 +30,7 @@ export default function EducationEntry({ education, updateEducation, removeEduca
           onChange={handleChange}
           className="form-input"
         />
-=
+        
         <label className="form-label" htmlFor={`field-${education.id}`}>
           Field of Study:
         </label>
