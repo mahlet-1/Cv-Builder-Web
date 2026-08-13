@@ -149,7 +149,7 @@ export default function App() {
           </div>
         )}
         
-        <div className="preview-side">
+        <div className={`preview-side ${!isEditMode ? "full-view" : ""}`}>
           <CvPreview data={cvData} />
         </div>
       </div>

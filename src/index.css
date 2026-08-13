@@ -28,7 +28,7 @@
   flex: 1;
   width: 100vw;            
   box-sizing: border-box;
-  height: calc(180vh - 30px);
+  height: calc(100vh - 30px);
   overflow: hidden;
 }
 
@@ -54,6 +54,11 @@
   box-sizing: border-box;
 }
 
+.preview-side.full-view {
+  width: 100vw;
+  background: #e2e8f0;
+  padding: 40px 350px;
+}
 .cv-preview {
   background: #ffffff;
   width: 210vw;              
