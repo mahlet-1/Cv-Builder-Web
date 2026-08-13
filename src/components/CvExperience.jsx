@@ -10,7 +10,7 @@ export default function CvExperience({ experience }) {
         {experience.map((experience) => (
           <div key={experience.id} className="cv-experience-entry">
             <div className="cv-experience-list">
-              {experience.company}{experience.from || experience.to ? ` | ${experience.from || ""} --- ${experience.to || ""}` : ""}
+              {experience.company}{experience.from || experience.to ? ` | ${experience.from || ""} - ${experience.to || ""}` : ""}
             </div>
             <div className="cv-experience-position">
               {experience.position}

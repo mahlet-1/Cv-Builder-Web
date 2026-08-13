@@ -10,7 +10,7 @@ export default function CvEducation({ education }) {
         {education.map((education) => (
           <div key={education.id} className="cv-education-entry">
             <div className="cv-education-list"> 
-              {education.school} {education.from || education.to ? ` | ${education.from || ""} --- ${education.to || ""}` : ""}
+              {education.school} {education.from || education.to ? ` | ${education.from || ""} - ${education.to || ""}` : ""}
             </div>
             <div className="cv-education-degree">
               {education.degree}{education.field ? ` in ${education.field}` : ""}

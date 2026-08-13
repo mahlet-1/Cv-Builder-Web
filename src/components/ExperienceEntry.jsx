@@ -58,6 +58,19 @@ export default function ExperienceEntry({ experience, updateExperience, removeEx
                         className="form-input"
                     />
 
+                    <label className="form-label" htmlFor={`description-${experience.id}`}>
+                        Experience Description:
+                    </label>
+                    <input
+                        type="text"
+                        id= {`description-${experience.id}`}
+                        name="description"
+                        value={experience.description}
+                        onChange={handleChange}
+                        className="form-input"
+                    
+                    />
+
                     </div>
 
                     <button
