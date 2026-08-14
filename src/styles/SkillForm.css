@@ -27,3 +27,7 @@
   cursor: pointer;
   font-size: 13.5px;
 }
+
+.btn-remove:hover {
+  background: #fecaca;
+}

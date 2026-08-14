@@ -1,4 +1,3 @@
-import '../styles/SummaryForm.css';
 export default function SummaryForm({ summary, updateSummary }) {
     const handleChange = (e) => {
         const { value } = e.target;
