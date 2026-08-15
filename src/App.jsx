@@ -134,7 +134,7 @@ export default function App() {
         </button>
         <button onClick={() => setCvData(sampleData)}>Load Example Data</button>
         <button onClick={() => setCvData(emptyData)}>Clear All Fields</button>
-        <button className="btn-download">Download CV</button>
+        <button onClick={handleDownloadPDF} className="btn-download">Download CV</button>
       </div>
 
       <div className="main-content">
