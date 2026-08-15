@@ -1,4 +1,5 @@
 import { useState } from "react";
+import html2pdf from "html2pdf.js";
 import FormPanel from "./components/FormPanel";
 import CvPreview from "./components/CvPreview";
 
@@ -114,6 +115,14 @@ export default function App() {
   const removeSkillTag = (skillName) => {
     setCvData((prev) => ({ ...prev, skills: prev.skills.filter((s) => s !== skillName) }));
   };
+
+   const handleDownloadPDF = () => {
+    const element = document.querySelector(".cv-preview");
+    if (!element) return;
+    
+    html2pdf().from(element).save(`${cvData.personal.name || "Resume"}_CV.pdf`);
+  };
+
 
   return (
     <div className="app-container">
