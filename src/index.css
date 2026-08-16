@@ -66,15 +66,15 @@
   padding: 40px 350px;
 }
 .cv-preview {
-  background: #ffffff;
-  width: 210vw;              
-  min-height: 297vh;        
-  padding: 40px 30px;        
-  margin: 0 auto;
-  align-items: center;
-  box-sizing: border-box;
+  width: 210mm !important;          
+  height: auto !important;          
+  min-height: auto !important;     
+  background: #ffffff !important;  
+  color: #000000 !important;        
+  padding: 10mm !important;         
+  box-sizing: border-box !important;
+  word-wrap: break-word !important; 
 }
-
 
 .cv-section-title {
   color: #000000;

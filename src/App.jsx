@@ -13,10 +13,7 @@ const sampleData = {
     linkedin: "://linkedin.com",
     github: "://github.com"
   },
-
-  summary: 
-    "I am a passionate frontend developer with foundation in React and modern web technologies. My goal is to continuously improve my skills and contribute to innovative projects.",
-  
+  summary: "I am a passionate frontend developer with foundation in React and modern web technologies. My goal is to continuously improve my skills and contribute to innovative projects.",
   education: [
     {
       id: 1,
@@ -29,7 +26,7 @@ const sampleData = {
   ],
   experience: [
     {
-      id: 1,
+      id: 2,
       company: "Nexus Tutorial",
       position: "Frontend Developer Intern",
       from: "2025-01-05",
@@ -116,20 +113,19 @@ export default function App() {
     setCvData((prev) => ({ ...prev, skills: prev.skills.filter((s) => s !== skillName) }));
   };
 
-   const handleDownloadPDF = () => {
+  const handleDownloadPDF = () => {
     const element = document.querySelector(".cv-preview");
     if (!element) return;
-    
-    html2pdf().from(element).save(`${cvData.personal.name || "Resume"}_CV.pdf`);
-  };
 
+      html2pdf().from(element).save(`${cvData.personal.name || "Resume"}_CV.pdf`);
+
+  };
 
   return (
     <div className="app-container">
       
       <div className="top-bar">
         <button onClick={() => setIsEditMode(!isEditMode)}>
-
           {isEditMode ? "View Full CV Preview" : "Back to Edit Mode"}
         </button>
         <button onClick={() => setCvData(sampleData)}>Load Example Data</button>
